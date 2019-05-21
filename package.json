@@ -1,0 +1,33 @@
+{
+  "name": "sugly-npm-template-module",
+  "version": "0.0.2",
+  "description": "A boilerplate project to wrap a sugly module as an npm package.",
+  "author": {
+    "name": "Leevi Li",
+    "email": "leevi@nirlstudio.com"
+  },
+  "license": "MIT",
+  "repository": "NirlStudio/sugly-npm-template-module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "sugly-test": "sugly :profile test sugly/test",
+    "install": "scripts/install",
+    "uninstall": "scripts/uninstall"
+  },
+  "keywords": [
+    "sugly"
+  ],
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  },
+  "dependencies": {
+    "sugly": "github:NirlStudio/sugly-lang#development"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "standard": "^12.0.1"
+  }
+}
