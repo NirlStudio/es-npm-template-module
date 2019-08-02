@@ -1,22 +1,29 @@
 {
-  "name": "sugly-npm-template-module",
-  "version": "0.0.2",
-  "description": "A boilerplate project to wrap a sugly module as an npm package.",
+  "name": "es-npm-template-module",
+  "version": "1.0.1",
+  "description": "A boilerplate project to wrap an Espresso module as an npm package.",
   "author": {
     "name": "Leevi Li",
     "email": "leevi@nirlstudio.com"
   },
   "license": "MIT",
-  "repository": "NirlStudio/sugly-npm-template-module",
+  "repository": "NirlStudio/es-npm-template-module",
   "main": "index.js",
   "scripts": {
     "mocha": "mocha",
-    "test": "sugly :profile test sugly/test",
+    "test": "es :profile test es/test",
     "install": "scripts/install",
     "uninstall": "scripts/uninstall"
   },
   "keywords": [
-    "sugly"
+    "es",
+    "eslang",
+    "espresso",
+    "espressolang",
+    "espresso-lang",
+    "boilerplate",
+    "template",
+    "module"
   ],
   "standard": {
     "env": [
@@ -24,10 +31,10 @@
     ]
   },
   "dependencies": {
-    "sugly": "github:NirlStudio/sugly-lang#development"
+    "eslang": "^1.0.3"
   },
   "devDependencies": {
-    "mocha": "^6.1.4",
+    "mocha": "^6.2.0",
     "standard": "^12.0.1"
   }
 }
