@@ -1,7 +1,5 @@
 'use strict'
 
-var modules = require('eslang/lib/modules')
-
 module.exports = function ($void) {
-  modules.expose('os', 'path')
+  $void.require.expose('os', 'path')
 }
